@@ -1,5 +1,6 @@
 .idea/
 pypi.token
+.DS_Store
 
 # Python-generated files
 __pycache__/
