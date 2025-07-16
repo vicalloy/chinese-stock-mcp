@@ -15,7 +15,7 @@ init-venv:
 	make shell
 
 run:
-	python -m china_stock_mcp.server --transport http
+	python -m chinese_stock_mcp.server --transport http
 
 .PHONY: build
 build:

@@ -6,7 +6,7 @@
 使用 uv:
 
 ```bash
-uv tool install china-stock-mcp
+uv tool install chinese-stock-mcp
 ```
 
 ### 🔌 MCP 集成
@@ -16,12 +16,12 @@ uv tool install china-stock-mcp
 ```json
 {
     "mcpServers": {
-        "china-stock-mcp": {
+        "chinese-stock-mcp": {
             "command": "uv",
             "args": [
                 "tool",
                 "run",
-                "china-stock-mcp"
+                "chinese-stock-mcp"
             ]
         }
     }

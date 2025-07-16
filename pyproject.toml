@@ -65,7 +65,7 @@ ignore = [
 ]
 
 [tool.ruff.lint.isort]
-known-first-party = ["china_stock_mcp"]
+known-first-party = ["chinese_stock_mcp"]
 
 [tool.ruff.lint.pyupgrade]
 # Preserve types, even if a file imports `from __future__ import annotations`.
