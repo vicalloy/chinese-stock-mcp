@@ -1,4 +1,5 @@
 .idea/
+pypi.token
 
 # Python-generated files
 __pycache__/

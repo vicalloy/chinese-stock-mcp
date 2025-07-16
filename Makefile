@@ -16,3 +16,11 @@ init-venv:
 
 run:
 	python -m china_stock_mcp.server --transport http
+
+.PHONY: build
+build:
+	uv build
+
+.PHONY: build
+publish:
+	uv publish
