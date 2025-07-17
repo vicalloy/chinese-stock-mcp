@@ -1,6 +1,8 @@
 import argparse
 import os
 
+import pysnowball
+
 from . import mcp
 
 
@@ -27,7 +29,10 @@ def main():
         default="stdio",
         help="Transport protocol",
     )
+    parser.add_argument("--token", type=str, default=None, help="雪球 token，可为空")
     args = parser.parse_args()
+    if args.token:
+        pysnowball.set_token(args.token)
     if args.transport == "http":
         run_http()
     else:
