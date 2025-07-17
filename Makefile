@@ -19,8 +19,9 @@ run:
 
 .PHONY: build
 build:
+	rm -rf dist/*
 	uv build
 
 .PHONY: build
-publish:
+publish: build
 	uv publish
