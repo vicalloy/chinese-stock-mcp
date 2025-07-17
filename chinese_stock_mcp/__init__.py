@@ -13,7 +13,8 @@ def set_token(token: str) -> str:
     """设置雪球API的访问token
 
     Args:
-        token: 雪球API token，格式为"xq_a_token=xxx;u=xxx"
+        token: 雪球API token，格式为"xq_a_token=xxx;u=xxx"。
+            需要用户提供，如果用户没有则不要调用该方法。
 
     Returns:
         返回设置成功的消息

@@ -32,7 +32,7 @@ def main():
     parser.add_argument("--token", type=str, default=None, help="雪球 token，可为空")
     args = parser.parse_args()
     if args.token:
-        pysnowball.set_token(args.token)
+        pysnowball.set_token(f"xq_a_token={args.token};")
     if args.transport == "http":
         run_http()
     else:

@@ -35,4 +35,6 @@ uv tool install chinese-stock-mcp
 
 注：
   - 如果不设置 `--token` 参数，很多功能将无法使用。 
+  - 将 `xueqiu-token` 替换为您的雪球 `Token` 中 `xq_a_token` 的值， 
+    比如 `a8d434ddd975f5752965fa782596bd0b5b008376` 。
   - [如何获取雪球的 Token](https://blog.crackcreed.com/diy-xue-qiu-app-shu-ju-api/)
