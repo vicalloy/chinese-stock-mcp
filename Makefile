@@ -15,7 +15,7 @@ init-venv:
 	make shell
 
 run:
-	python -m chinese_stock_mcp.server --transport http
+	python -m chinese_stock_mcp.server --transport http --token "$(XQ_TOKEN)"
 
 .PHONY: build
 build:
