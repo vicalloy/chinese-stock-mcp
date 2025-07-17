@@ -1,6 +1,7 @@
 .idea/
 pypi.token
 .DS_Store
+run.sh
 
 # Python-generated files
 __pycache__/
